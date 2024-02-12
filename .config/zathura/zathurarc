@@ -1,0 +1,61 @@
+# include ./themes/nord
+
+set notification-error-bg       "#32302f"
+set notification-error-fg       "#fb4934"
+set notification-warning-bg     "#32302f"
+set notification-warning-fg     "#fabd2f"
+set notification-bg             "#32302f"
+set notification-fg             "#b8bb26"
+
+set completion-bg               "#504945"
+set completion-fg               "#ebdbb2"
+set completion-group-bg         "#3c3836"
+set completion-group-fg         "#928374"
+set completion-highlight-bg     "#83a598"
+set completion-highlight-fg     "#504945"
+
+set index-bg                    "#504945"
+set index-fg                    "#ebdbb2"
+set index-active-bg             "#83a598"
+set index-active-fg             "#504945"
+
+set inputbar-bg                 "#32302f"
+set inputbar-fg                 "#ebdbb2"
+
+set statusbar-bg                "#504945"
+set statusbar-fg                "#ebdbb2"
+
+set highlight-color             "#fabd2f"
+set highlight-active-color      "#fe8019"
+
+set default-bg                  "#32302f"
+set default-fg                  "#ebdbb2"
+set render-loading              true
+set render-loading-bg           "#32302f"
+set render-loading-fg           "#ebdbb2"
+
+set recolor-lightcolor          "#32302f"
+set recolor-darkcolor           "#ebdbb2"
+# set recolor                     "true"
+
+
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set selection-clipboard clipboard
+
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+map g goto top
+
+set adjust-open width
+
+

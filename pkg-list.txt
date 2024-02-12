@@ -1,0 +1,5 @@
+gammastep
+swww
+sway-audio-idle-inhibit-git
+swayosd-git
+swaylock-effects
